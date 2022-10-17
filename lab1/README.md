@@ -12,12 +12,12 @@ I wrote the code from scratch.
 ## Results
 With N>~30 the program starts to face expensive computations, and waiting times exceed the few seconds heading towards infinity.
 
-* N=5: k=3, nodes=21887 <br/>
+* N=5: k=3, n=5, nodes=21887 <br/>
 [[2, 4], [0, 1], [3]]
-* N=10: k=4, nodes=122923 <br/>
+* N=10: k=4, n=10, nodes=122923 <br/>
 [[1, 7], [8, 2], [4, 5, 6], [0, 9, 3]]
-* N=20: k=5, nodes=118752 <br/>
+* N=20: k=5, n=23, nodes=118752 <br/>
 [[8, 4, 7], [2, 6, 8, 10, 12, 15, 18], [16, 9, 19, 6], [0, 5, 11, 16, 17], [1, 3, 13, 14]]
-* N=30: k=5 nodes=24484845 <br/>
+* N=30: k=5, n=36, nodes=24484845 <br/>
 [[1, 3, 12, 20, 21], [10, 13, 16, 18, 21, 29], [2, 5, 7, 9, 11, 14, 17, 22, 26, 28], [0, 1, 4, 6, 7, 15, 19, 25, 27], [6, 8, 15, 18, 23, 24]]
 * N=50: ...too expensive computations
