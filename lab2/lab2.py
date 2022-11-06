@@ -65,7 +65,7 @@ def main():
 				offspring.append(individual(w, f))
 			population += offspring
 			population = sorted(population, key=lambda i: i.fitness, reverse=True)
-		print(f"N={N} -> W={-population[0][1][1]} BLOAT={int((-population[0][1][1]-N)*100/N)}%")
+		print(f"N={N}, W={-population[0][1][1]}, BLOAT={int((-population[0][1][1]-N)*100/N)}%")
 
 
 if __name__ == "__main__":
